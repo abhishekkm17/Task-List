@@ -1,0 +1,22 @@
+/vendor
+/node_modules
+.env
+.env.*
+/storage/*.key
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+/public/storage
+/public/hot
+
+# IDE files
+/.idea
+/.vscode
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
