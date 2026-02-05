@@ -1,14 +1,36 @@
+# Laravel core
 /vendor
 /node_modules
+
+# Environment files (VERY IMPORTANT — contains secrets)
 .env
-.env.*
+.env.backup
+.env.production
+
+# Application cache & logs
 /storage/*.key
 /storage/logs
 /storage/framework/cache
 /storage/framework/sessions
 /storage/framework/views
+
+# Public storage symlink
 /public/storage
+
+# Laravel Mix / Vite
 /public/hot
+/public/build
+
+# PHPUnit
+.phpunit.result.cache
+
+# Composer
+composer.lock
+
+# NPM
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
 # IDE files
 /.idea
@@ -18,5 +40,6 @@
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# Debug tools
+npm-debug.log
+yarn-error.logs
